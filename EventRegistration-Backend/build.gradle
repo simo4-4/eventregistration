@@ -23,6 +23,4 @@ test {
 	useJUnitPlatform()
 }
 
-task stage () {
-    dependsOn ':EventRegistration-Backend:assemble'
-}
+
